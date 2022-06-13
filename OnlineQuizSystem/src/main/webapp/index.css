@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=My+Soul&family=Rubik:wght@300&display=swap')
+	;
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+.navbar {
+	background-color: #086256 !important;
+}
+
+.heading {
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%,
+		rgba(0, 0, 0, 0.7) 100%), url("images/education.jpg");
+	background-size: cover;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.heading p {
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	width: 100px;
+	height: 150px;
+}
